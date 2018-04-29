@@ -1,0 +1,61 @@
+﻿Offline for Section A2/B2
+Submission Deadline:  6 October, 2017 11.55PM
+SOLVING “FLOOD-IT” USING A* SEARCH
+In this assignment you will have to solve the game “Flood-It” using A* search. The Problem Flood-It is a computer game played by millions the world over. The object is to turn a board full of colored squares into one single color in minimum number of ‘flood-filling’ moves. Each move changes the color of the top-left square and all of the same colored squares, connected to it. It is easy to play, yet challenging, great fun and addictive. Solving Flood-It is an NP-Hard problem. 
+
+
+The game can be played online:
+
+
+1. http://www.lemoda.net/javascript/flood-it/game.html
+2. http://unixpapa.com/floodit/?sz=14&nc=6
+
+
+  
+
+
+
+A* Search:  Refer to the slide provided in class.
+https://drive.google.com/open?id=0B-SybtAwa8vcUUZyNjJqcnhjbk0
+
+
+The tasks
+1. You have to design at least two different heuristics for the problem. One of them should be admissible. Your heuristics should not take more than 10, 17, and 25 steps for 6*6, 10*10, and, 14*14 boards, respectively. The number of colors is fixed to six.
+
+
+2. You will have to implement A* search to solve the problem, and implement both of the heuristics. 
+
+
+3. You have to write a short report (1 page, hard copy), discussing the admissibility and the comparative performance (optimality and runtime) of your proposed heuristics.
+
+
+
+
+Input File Format
+The input file contains a series of inputs. First line contains the board size n. Next n line contains n integer each, i.e., the n*n board. The colors are represented by integers 1 to n. The file ends with a zero as board size. Refer to input.txt for sample inputs.
+
+
+
+
+
+
+Output Format
+Output will be shown in console in the following format:
+
+
+Number of moves: x
+Next there will be x integers showing the chosen color in each move.
+Next Print the (x+1) Boards sequentially, starting from initial state to goal state.
+
+
+Implementing GUI is upto your choice and it’s appreciable
+
+
+
+
+
+
+Evaluation Criteria: 
+
+
+To be updated
